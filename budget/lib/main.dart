@@ -177,3 +177,8 @@ class App extends StatelessWidget {
     );
   }
 }
+
+// Example query to test the database viewer
+const exampleQuery = 'SELECT * FROM transactions LIMIT 5';
+
+// Remove duplicate main function and its contents since we already have a working main above

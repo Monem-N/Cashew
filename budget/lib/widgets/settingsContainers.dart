@@ -141,7 +141,7 @@ class PlatformSwitch extends StatelessWidget {
   Widget build(BuildContext context) {
     if (getPlatform() == PlatformOS.isIOS) {
       return CupertinoSwitch(
-        activeColor: Theme.of(context).colorScheme.primary,
+        activeTrackColor: Theme.of(context).colorScheme.primary,
         value: value,
         onChanged: (_) {
           onTap();
@@ -207,7 +207,7 @@ class SettingsContainerOpenPage extends StatelessWidget {
         onClosed: onClosed,
         onOpen: onOpen,
         closedColor:
-            backgroundColor ?? Theme.of(context).colorScheme.background,
+            backgroundColor ?? Theme.of(context).colorScheme.surface,
         borderRadius: isOutlined == true
             ? 10
             : getIsFullScreen(context)

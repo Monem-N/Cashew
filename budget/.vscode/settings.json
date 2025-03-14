@@ -1,0 +1,4 @@
+{
+    "notebook.defaultFormatter": "trae.ai-code-completion",
+    "editor.defaultFormatter": "trae.ai-code-completion"
+}

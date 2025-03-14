@@ -143,7 +143,7 @@ class PageNavigationFrameworkSafeArea extends StatelessWidget {
       children: [
         hasRightSafeArea || hasLeftSafeArea
             ? Container(
-                color: Theme.of(context).colorScheme.background,
+                color: Theme.of(context).colorScheme.surface,
               )
             : SizedBox.shrink(),
         hasRightSafeArea || hasLeftSafeArea
@@ -171,7 +171,7 @@ class PageNavigationFrameworkSafeArea extends StatelessWidget {
                 alignment: Alignment.centerRight,
                 child: Container(
                   width: rightPaddingSafeArea,
-                  color: Theme.of(context).colorScheme.background,
+                  color: Theme.of(context).colorScheme.surface,
                 ),
               )
             : SizedBox.shrink(),
@@ -180,7 +180,7 @@ class PageNavigationFrameworkSafeArea extends StatelessWidget {
                 alignment: Alignment.centerLeft,
                 child: Container(
                   width: leftPaddingSafeArea,
-                  color: Theme.of(context).colorScheme.background,
+                  color: Theme.of(context).colorScheme.surface,
                 ),
               )
             : SizedBox.shrink(),
